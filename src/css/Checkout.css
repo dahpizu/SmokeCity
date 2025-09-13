@@ -1,0 +1,265 @@
+/* Checkout Container */
+.CheckoutContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form Section */
+.FormSection {
+  margin-bottom: 20px;
+}
+
+.EditBtn {
+  font-size: 0.9rem;
+  color: #b8860b;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.DeliveryDetails p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Order Summary Section */
+.SummarySection {
+  margin-bottom: 20px;
+}
+
+.SummaryItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.SummaryItem span {
+  font-weight: bold;
+}
+
+.SummaryTotal {
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Payment Section */
+.PaymentSection {
+  margin-bottom: 20px;
+}
+
+.PaymentSection label {
+  font-size: 0.9rem;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.BankDetails {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.UploadProofBtn {
+  margin-top: 10px;
+  background-color: #b8860b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.UploadProofBtn:hover {
+  background-color: #d4af37;
+}
+
+.ConfirmCheckbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.ConfirmCheckbox input[type="checkbox"] {
+  transform: scale(1.3);
+}
+
+.ConfirmCheckbox label {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Button */
+.PlaceOrderBtn {
+  width: 100%;
+  padding: 10px;
+  background: #b8860b;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  opacity: 0.7;
+}
+
+.PlaceOrderBtn:hover:not(:disabled) {
+  background: #d4af37;
+  opacity: 1;
+}
+
+.PlaceOrderBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+/* File Upload Section */
+.FileUploadContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.FileUploadLabel {
+  font-size: 0.95rem;
+  color: #fff;
+  background-color: #b8860b;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  text-align: center;
+  width: auto;
+  text-decoration: none;
+}
+
+.FileUploadLabel:hover {
+  background-color: #d4af37;
+  transform: scale(1.05);
+}
+
+.FileUploadLabel:active {
+  background-color: #c8a700;
+}
+
+/* Hide the default file input */
+input[type="file"] {
+  display: none;
+}
+
+/* Display the selected file name */
+.FileName {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 8px;
+  font-style: italic;
+  display: none; /* Hide by default, show only when file is selected */
+}
+
+/* When a file is selected */
+input[type="file"]:valid + .FileUploadLabel {
+  background-color: #f1c23e;
+}
+
+input[type="file"]:valid + .FileUploadLabel:hover {
+  background-color: #d4af37;
+}
+
+input[type="file"]:valid + .FileUploadLabel:active {
+  background-color: #c8a700;
+}
+
+input[type="file"]:valid + .FileUploadLabel + .FileName {
+  display: block;
+}
+
+/* Checkout.css */
+.CheckoutContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.FormSection,
+.SummarySection,
+.PaymentSection {
+  margin-bottom: 20px;
+}
+
+.EditBtn {
+  background-color: #ffa500;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.SummaryItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SummaryTotal {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.PlaceOrderBtn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.FileUploadLabel {
+  cursor: pointer;
+}
+
+.FileName {
+  display: block;
+  margin-top: 10px;
+}
+
+.ConfirmCheckbox {
+  display: flex;
+  align-items: center;
+}

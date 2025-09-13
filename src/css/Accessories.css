@@ -1,0 +1,19 @@
+.AccessoriesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 30px 16px;
+  background: #f4f4f4;
+}
+
+/* Remove duplicated ProductCard styles */
+
+/* You can add or override only what’s needed */
+
+@media (max-width: 768px) {
+  .ProductCard {
+    width: 90vw;
+    min-height: auto;
+  }
+}

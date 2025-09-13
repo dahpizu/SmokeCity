@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Logo {
+  width: 350px;
+  height: 350px;
+}
+.HeadIcons {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.LogoText {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.LogoName {
+  padding-left: 350px;
+  font-family: "Rock Salt", cursive;
+  color: rgb(181, 3, 3);
+}

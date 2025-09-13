@@ -1,0 +1,18 @@
+.AshTrayContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 30px 16px;
+  background: #fcfcfc;
+}
+
+/* No more AshTrayProductCard, AshTrayMainImage, etc. — use ProductCard.css shared styles */
+
+/* Responsive override for shared ProductCard */
+@media (max-width: 768px) {
+  .ProductCard {
+    width: 90vw;
+    min-height: auto;
+  }
+}

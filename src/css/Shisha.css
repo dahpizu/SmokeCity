@@ -1,0 +1,219 @@
+/* Container holding all product cards */
+.ShishaContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 30px 16px;
+  background: #f9f9f9;
+}
+
+/* Product Card styling */
+.ShishaProductCard {
+  width: 260px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.07);
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  transition: box-shadow 0.3s ease;
+  overflow: visible;
+}
+
+.ShishaProductCard:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Image Section */
+.ShishaImageSection {
+  padding: 12px 16px 0;
+}
+
+.ShishaMainImage {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.ShishaMainImage:hover {
+  transform: scale(1.8);
+  position: relative;
+  z-index: 10;
+}
+
+/* Thumbnails */
+.ShishaThumbnailRow {
+  display: flex;
+  gap: 8px;
+  padding: 10px 0 0;
+  justify-content: flex-start;
+  overflow-x: auto;
+  scrollbar-width: none; /* hide scrollbar in Firefox */
+}
+
+.ShishaThumbnailImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.ShishaThumbnailImage.selected {
+  border-color: #666;
+  transform: scale(1.1);
+}
+
+/* Variant Buttons Section */
+.ShishaVariants {
+  padding: 12px 16px 0;
+}
+
+.VariantButtonsContainer {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.VariantButton {
+  padding: 8px 16px;
+  border: 2px solid #ccc;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.VariantButton:hover {
+  border-color: #b8860b;
+  color: #b8860b;
+}
+
+.SelectedVariant {
+  border-color: #b8860b;
+  background-color: #b8860b;
+  color: white;
+}
+
+/* Details Section */
+.ShishaDetailsSection {
+  padding: 14px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+}
+
+/* Title and Price */
+.ShishaTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  color: #222;
+}
+
+.ShishaPrice {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #b8860b;
+  margin: 0;
+}
+
+/* Description */
+.ShishaDescription {
+  font-size: 0.85rem;
+  color: #444;
+  line-height: 1.3;
+  max-height: 3.5em;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: max-height 0.3s ease;
+  margin: 0;
+}
+
+.ShishaDescription:hover {
+  max-height: 180px;
+  overflow: auto;
+}
+
+.ShishaDescription::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1em;
+  background: linear-gradient(to bottom, transparent, white);
+  transition: opacity 0.3s ease;
+}
+
+.ShishaDescription:hover::after {
+  opacity: 0;
+}
+
+/* Color Selection */
+.ShishaColors p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.ColorButtonsContainer {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.ColorButton {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.ColorButton:hover {
+  transform: scale(1.15);
+}
+
+.SelectedColor {
+  border-color: #b8860b;
+  box-shadow: 0 0 8px #b8860b88;
+}
+
+/* Add to Cart Button */
+.AddToCartBtn {
+  margin-top: auto;
+  padding: 12px 0;
+  background: #b8860b;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  flex-shrink: 0;
+}
+
+.AddToCartBtn:hover {
+  background: #d4af37;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ShishaProductCard {
+    width: 90vw;
+    min-height: auto;
+  }
+}

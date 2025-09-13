@@ -1,0 +1,31 @@
+.footerContainer {
+  color: rgb(181, 3, 3);
+  padding: 20px;
+  text-align: center;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerText {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socialLink {
+  color: rgb(181, 3, 3);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.socialLink:hover {
+  color: #4caf50;
+}
