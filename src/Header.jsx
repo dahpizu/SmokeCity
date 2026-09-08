@@ -13,6 +13,7 @@ function Header() {
   const [cartOpen, setCartOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const navigate = useNavigate();
+  const basepath = import.meta.env.BASE_URL;
 
   const { cart } = useCart();
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
@@ -33,7 +34,7 @@ function Header() {
       <div className="LogoContainer">
         <Link to="/">
           <img
-            src="/images/SmokeCityLogo.JPG"
+            src={`${basepath}images/SmokeCityLogo.JPG`}
             alt="Smoke City Logo"
             className="Logo"
           />

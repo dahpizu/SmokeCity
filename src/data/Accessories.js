@@ -1,3 +1,4 @@
+const basepath = import.meta.env.BASE_URL;
 const accessoriesItems = [
   {
     id: "acc1",
@@ -8,10 +9,10 @@ const accessoriesItems = [
     colors: [
       {
         images: [
-          "/images/Accessories/038.jpeg",
-          "/images/Accessories/036.jpeg",
-          "/images/Accessories/039.jpeg",
-          "/images/Accessories/037.jpeg",
+          `${basepath}images/Accessories/038.jpeg`,
+          `${basepath}images/Accessories/036.jpeg`,
+          `${basepath}images/Accessories/039.jpeg`,
+          `${basepath}images/Accessories/037.jpeg`,
         ],
       },
     ],
@@ -25,15 +26,15 @@ const accessoriesItems = [
     colors: [
       {
         images: [
-          "/images/Accessories/053.jpeg",
-          "/images/Accessories/054.jpeg",
-          "/images/Accessories/055.jpeg",
-          "/images/Accessories/056.jpeg",
-          "/images/Accessories/057.jpeg",
-          "/images/Accessories/058.jpeg",
-          "/images/Accessories/059.jpeg",
-          "/images/Accessories/060.jpeg",
-          "/images/Accessories/061.jpeg",
+          `${basepath}images/Accessories/053.jpeg`,
+          `${basepath}images/Accessories/054.jpeg`,
+          `${basepath}images/Accessories/055.jpeg`,
+          `${basepath}images/Accessories/056.jpeg`,
+          `${basepath}images/Accessories/057.jpeg`,
+          `${basepath}images/Accessories/058.jpeg`,
+          `${basepath}images/Accessories/059.jpeg`,
+          `${basepath}images/Accessories/060.jpeg`,
+          `${basepath}images/Accessories/061.jpeg`,
         ],
       },
     ],
@@ -47,15 +48,15 @@ const accessoriesItems = [
     colors: [
       {
         images: [
-          "/images/Accessories/071.jpeg",
-          "/images/Accessories/072.jpeg",
-          "/images/Accessories/073.jpeg",
-          "/images/Accessories/074.jpeg",
-          "/images/Accessories/075.jpeg",
-          "/images/Accessories/076.jpeg",
-          "/images/Accessories/077.jpeg",
-          "/images/Accessories/078.jpeg",
-          "/images/Accessories/079.jpeg",
+          `${basepath}images/Accessories/071.jpeg`,
+          `${basepath}images/Accessories/072.jpeg`,
+          `${basepath}images/Accessories/073.jpeg`,
+          `${basepath}images/Accessories/074.jpeg`,
+          `${basepath}images/Accessories/075.jpeg`,
+          `${basepath}images/Accessories/076.jpeg`,
+          `${basepath}images/Accessories/077.jpeg`,
+          `${basepath}images/Accessories/078.jpeg`,
+          `${basepath}images/Accessories/079.jpeg`,
         ],
       },
     ],
@@ -69,15 +70,15 @@ const accessoriesItems = [
     colors: [
       {
         images: [
-          "/images/Accessories/062.jpeg",
-          "/images/Accessories/063.jpeg",
-          "/images/Accessories/064.jpeg",
-          "/images/Accessories/065.jpeg",
-          "/images/Accessories/066.jpeg",
-          "/images/Accessories/067.jpeg",
-          "/images/Accessories/068.jpeg",
-          "/images/Accessories/069.jpeg",
-          "/images/Accessories/070.jpeg",
+          `${basepath}images/Accessories/062.jpeg`,
+          `${basepath}images/Accessories/063.jpeg`,
+          `${basepath}images/Accessories/064.jpeg`,
+          `${basepath}images/Accessories/065.jpeg`,
+          `${basepath}images/Accessories/066.jpeg`,
+          `${basepath}images/Accessories/067.jpeg`,
+          `${basepath}images/Accessories/068.jpeg`,
+          `${basepath}images/Accessories/069.jpeg`,
+          `${basepath}images/Accessories/070.jpeg`,
         ],
       },
     ],

@@ -40,13 +40,17 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.LogoText {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
 
 .LogoName {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #b8860b;
-  margin: 0 0 4px 0;
-  line-height: 1.1;
+  padding-left: 300px;
+  font-family: "Shadows Into Light", cursive;
+  color: rgb(181, 3, 3);
+  font-size: 60px;
 }
 
 .dropdown-menu {

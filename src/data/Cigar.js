@@ -1,29 +1,29 @@
-// src/data/Cigar.js
+const basepath = import.meta.env.BASE_URL;
 const cigarItems = [
   {
     name: "Cohiba Robusto",
     price: "#15.00",
-    img: "/images/cohiba.jpg",
+    img: `${basepath}images/cohiba.jpeg`,
   },
   {
     name: "Montecristo No. 2",
     price: "#12.00",
-    img: "/images/montecristo.jpg",
+    img: `${basepath}images/montecristo.jpeg`,
   },
   {
     name: "Romeo y Julieta",
     price: "#10.50",
-    img: "/images/romeoyjulieta.jpg",
+    img: `${basepath}images/romeoyjulieta.jpeg`,
   },
   {
     name: "Arturo Fuente",
     price: "#11.25",
-    img: "/images/arturofuente.jpg",
+    img: `${basepath}images/arturofuente.jpeg`,
   },
   {
     name: "Padron 1964",
     price: "#14.75",
-    img: "/images/padron.jpg",
+    img: `${basepath}images/padron.jpeg`,
   },
 ];
 

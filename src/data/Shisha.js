@@ -1,3 +1,4 @@
+const basepath = import.meta.env.BASE_URL;
 const shishaItems = [
   {
     id: 1,
@@ -11,12 +12,15 @@ const shishaItems = [
       {
         name: "Gold",
         code: "#FFD700",
-        images: ["/images/Shisha/001.jpeg"],
+        images: [`${basepath}images/Shisha/001.jpeg`],
       },
       {
         name: "Blue",
         code: "#0000FF",
-        images: ["/images/Shisha/003.jpeg", "/images/Shisha/002.jpeg"],
+        images: [
+          `${basepath}images/Shisha/003.jpeg`,
+          `${basepath}images/Shisha/002.jpeg`,
+        ],
       },
     ],
   },
@@ -30,22 +34,22 @@ const shishaItems = [
       {
         name: "Black",
         code: "#000000",
-        images: ["/images/Shisha/006.jpeg"],
+        images: [`${basepath}images/Shisha/006.jpeg`],
       },
       {
         name: "Red",
         code: "#FF0000",
-        images: ["/images/Shisha/007.jpeg"],
+        images: [`${basepath}images/Shisha/007.jpeg`],
       },
       {
         name: "Orange",
         code: "#FFA500",
-        images: ["/images/Shisha/008.jpeg"],
+        images: [`${basepath}images/Shisha/008.jpeg`],
       },
       {
         name: "Blue",
         code: "#0000FF",
-        images: ["/images/Shisha/009.jpeg"],
+        images: [`${basepath}images/Shisha/009.jpeg`],
       },
     ],
   },
@@ -59,12 +63,18 @@ const shishaItems = [
       {
         name: "Yellow",
         code: "#FFFF00",
-        images: ["/images/Shisha/011.jpeg", "/images/Shisha/012.jpeg"],
+        images: [
+          `${basepath}images/Shisha/011.jpeg`,
+          `${basepath}images/Shisha/012.jpeg`,
+        ],
       },
       {
         name: "Blue",
         code: "#0000FF",
-        images: ["/images/Shisha/013.jpeg", "/images/Shisha/014.jpeg"],
+        images: [
+          `${basepath}images/Shisha/013.jpeg`,
+          `${basepath}images/Shisha/014.jpeg`,
+        ],
       },
     ],
   },
@@ -78,15 +88,18 @@ const shishaItems = [
       {
         name: "Gold",
         code: "#FFD700",
-        images: ["/images/Shisha/016.jpeg", "/images/Shisha/020.jpeg"],
+        images: [
+          `${basepath}images/Shisha/016.jpeg`,
+          `${basepath}images/Shisha/020.jpeg`,
+        ],
       },
       {
         name: "Aeneous",
         code: "#7CB9A3",
         images: [
-          "/images/Shisha/017.jpeg",
-          "/images/Shisha/021.jpeg",
-          "/images/Shisha/018.jpeg",
+          `${basepath}images/Shisha/017.jpeg`,
+          `${basepath}images/Shisha/021.jpeg`,
+          `${basepath}images/Shisha/018.jpeg`,
         ],
       },
     ],
@@ -101,12 +114,15 @@ const shishaItems = [
       {
         name: "Gold",
         code: "#FFD700",
-        images: ["/images/Shisha/022.jpeg", "/images/Shisha/024.jpeg"],
+        images: [
+          `${basepath}images/Shisha/022.jpeg`,
+          `${basepath}images/Shisha/024.jpeg`,
+        ],
       },
       {
         name: "Blue",
         code: "#0000FF",
-        images: ["/images/Shisha/023.jpeg"],
+        images: [`${basepath}images/Shisha/023.jpeg`],
       },
     ],
   },
@@ -120,27 +136,27 @@ const shishaItems = [
       {
         name: "Pink",
         code: "#FFC0CB",
-        images: ["/images/Shisha/025.jpeg"],
+        images: [`${basepath}images/Shisha/025.jpeg`],
       },
       {
         name: "Blue",
         code: "#0000FF",
-        images: ["/images/Shisha/026.jpeg"],
+        images: [`${basepath}images/Shisha/026.jpeg`],
       },
       {
         name: "Purple",
         code: "#800080",
-        images: ["/images/Shisha/027.jpeg"],
+        images: [`${basepath}images/Shisha/027.jpeg`],
       },
       {
         name: "Green",
         code: "#008000",
-        images: ["/images/Shisha/029.jpeg"],
+        images: [`${basepath}images/Shisha/029.jpeg`],
       },
       {
         name: "White",
         code: "#FFFFFF",
-        images: ["/images/Shisha/028.jpeg"],
+        images: [`${basepath}images/Shisha/028.jpeg`],
       },
     ],
   },
@@ -155,10 +171,10 @@ const shishaItems = [
         name: "Black",
         code: "#000000",
         images: [
-          "/images/Shisha/031.jpeg",
-          "/images/Shisha/030.jpeg",
-          "/images/Shisha/032.jpeg",
-          "/images/Shisha/033.jpeg",
+          `${basepath}images/Shisha/031.jpeg`,
+          `${basepath}images/Shisha/030.jpeg`,
+          `${basepath}images/Shisha/032.jpeg`,
+          `${basepath}images/Shisha/033.jpeg`,
         ],
       },
     ],
@@ -175,12 +191,15 @@ const shishaItems = [
       {
         name: "Black",
         code: "#000000",
-        images: ["/images/Shisha/034.jpeg"],
+        images: [`${basepath}images/Shisha/034.jpeg`],
       },
       {
         name: "Snow",
         code: "#FFFAFA",
-        images: ["/images/Shisha/035.jpeg", "/images/Shisha/036.jpeg"],
+        images: [
+          `${basepath}images/Shisha/035.jpeg`,
+          `${basepath}images/Shisha/036.jpeg`,
+        ],
       },
     ],
   },
@@ -194,27 +213,27 @@ const shishaItems = [
       {
         name: "Blue",
         code: "#0000FF",
-        images: ["/images/Shisha/037.jpeg"],
+        images: [`${basepath}images/Shisha/037.jpeg`],
       },
       {
         name: "Black",
         code: "#000000",
-        images: ["/images/Shisha/038.jpeg"],
+        images: [`${basepath}images/Shisha/038.jpeg`],
       },
       {
         name: "Red",
         code: "#FF0000",
-        images: ["/images/Shisha/039.jpeg"],
+        images: [`${basepath}images/Shisha/039.jpeg`],
       },
       {
         name: "Yellow",
         code: "#FFFF00",
-        images: ["/images/Shisha/040.jpeg"],
+        images: [`${basepath}images/Shisha/040.jpeg`],
       },
       {
         name: "Green",
         code: "#008000",
-        images: ["/images/Shisha/041.jpeg"],
+        images: [`${basepath}images/Shisha/041.jpeg`],
       },
     ],
   },
@@ -232,12 +251,12 @@ const shishaItems = [
           {
             name: "Green",
             code: "#008000",
-            images: ["/images/Shisha/045.jpeg"],
+            images: [`${basepath}images/Shisha/045.jpeg`],
           },
           {
             name: "Black",
             code: "#000000",
-            images: ["/images/Shisha/048.jpeg"],
+            images: [`${basepath}images/Shisha/048.jpeg`],
           },
         ],
       },
@@ -249,17 +268,17 @@ const shishaItems = [
           {
             name: "White",
             code: "#FFFFFF",
-            images: ["/images/Shisha/042.jpeg"], // example path for double hose images
+            images: [`${basepath}images/Shisha/042.jpeg`], // example path for double hose images
           },
           {
             name: "Black",
             code: "#000000",
-            images: ["/images/Shisha/044.jpeg"],
+            images: [`${basepath}images/Shisha/044.jpeg`],
           },
           {
             name: "Pink",
             code: "#FFC0CB",
-            images: ["/images/Shisha/049.jpeg"],
+            images: [`${basepath}images/Shisha/049.jpeg`],
           },
         ],
       },
@@ -275,13 +294,16 @@ const shishaItems = [
       {
         name: "Black",
         code: "#000000",
-        images: ["/images/Shisha/052.jpeg", "/images/Shisha/051.jpeg"],
+        images: [
+          `${basepath}images/Shisha/052.jpeg`,
+          `${basepath}images/Shisha/051.jpeg`,
+        ],
       },
 
       {
         name: "Green",
         code: "#008000",
-        images: ["/images/Shisha/050.jpeg"],
+        images: [`${basepath}images/Shisha/050.jpeg`],
       },
     ],
   },
@@ -295,32 +317,32 @@ const shishaItems = [
       {
         name: "Black",
         code: "#000000",
-        images: ["/images/Shisha/056.jpeg"],
+        images: [`${basepath}images/Shisha/056.jpeg`],
       },
 
       {
         name: "Green",
         code: "#008000",
-        images: ["/images/Shisha/058.jpeg"],
+        images: [`${basepath}images/Shisha/058.jpeg`],
       },
       {
         name: "Red",
         code: "#FF0000",
-        images: ["/images/Shisha/059.jpeg"],
+        images: [`${basepath}images/Shisha/059.jpeg`],
       },
       {
         name: "Yellow",
         code: "#FFFF00",
-        images: ["/images/Shisha/054.jpeg"],
+        images: [`${basepath}images/Shisha/054.jpeg`],
       },
       {
         name: "Blue",
         code: "#0000FF",
         images: [
-          "/images/Shisha/060.jpeg",
-          "/images/Shisha/055.jpeg",
-          "/images/Shisha/053.jpeg",
-          "/images/Shisha/061.jpeg",
+          `${basepath}images/Shisha/060.jpeg`,
+          `${basepath}images/Shisha/055.jpeg`,
+          `${basepath}images/Shisha/053.jpeg`,
+          `${basepath}images/Shisha/061.jpeg`,
         ],
       },
     ],
@@ -335,23 +357,26 @@ const shishaItems = [
       {
         name: "Blue",
         code: "#0000FF",
-        images: ["/images/Shisha/065.jpeg"],
+        images: [`${basepath}images/Shisha/065.jpeg`],
       },
 
       {
         name: "Yellow",
         code: "#FFFF00",
-        images: ["/images/Shisha/064.jpeg"],
+        images: [`${basepath}images/Shisha/064.jpeg`],
       },
       {
         name: "Pink",
         code: "#FFC0CB",
-        images: ["/images/Shisha/063.jpeg"],
+        images: [`${basepath}images/Shisha/063.jpeg`],
       },
       {
         name: "Purple",
         code: "#800080",
-        images: ["/images/Shisha/066.jpeg", "/images/Shisha/062.jpeg"],
+        images: [
+          `${basepath}images/Shisha/066.jpeg`,
+          `${basepath}images/Shisha/062.jpeg`,
+        ],
       },
     ],
   },
@@ -365,10 +390,10 @@ const shishaItems = [
     colors: [
       {
         images: [
-          "/images/Accessories/042.jpeg",
-          "/images/Accessories/041.jpeg",
-          "/images/Accessories/040.jpeg",
-          "/images/Accessories/043.jpeg",
+          `${basepath}images/Accessories/042.jpeg`,
+          `${basepath}images/Accessories/041.jpeg`,
+          `${basepath}images/Accessories/040.jpeg`,
+          `${basepath}images/Accessories/043.jpeg`,
         ],
       },
     ],
@@ -383,9 +408,9 @@ const shishaItems = [
     colors: [
       {
         images: [
-          "/images/Accessories/044.jpeg",
-          "/images/Accessories/045.jpeg",
-          "/images/Accessories/046.jpeg",
+          `${basepath}images/Accessories/044.jpeg`,
+          `${basepath}images/Accessories/045.jpeg`,
+          `${basepath}images/Accessories/046.jpeg`,
         ],
       },
     ],
@@ -401,28 +426,28 @@ const shishaItems = [
       {
         name: "Red",
         code: "#FF0000",
-        images: ["/images/Accessories/048.jpeg"],
+        images: [`${basepath}images/Accessories/048.jpeg`],
       },
       {
         name: "Yellow",
         code: "#FFD700",
-        images: ["/images/Accessories/049.jpeg"],
+        images: [`${basepath}images/Accessories/049.jpeg`],
       },
 
       {
         name: "Blue",
         code: "#0000FF",
-        images: ["/images/Accessories/052.jpeg"],
+        images: [`${basepath}images/Accessories/052.jpeg`],
       },
       {
         name: "Green",
         code: "#00FF00",
-        images: ["/images/Accessories/051.jpeg"],
+        images: [`${basepath}images/Accessories/051.jpeg`],
       },
       {
         name: "Purple",
         code: "#800080",
-        images: ["/images/Accessories/050.jpeg"],
+        images: [`${basepath}images/Accessories/050.jpeg`],
       },
     ],
   },

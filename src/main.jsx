@@ -1,7 +1,12 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css"; // this file can be empty, but should exist
+import "./index.css";
 import App from "./App.jsx";
+import { HashRouter } from "react-router-dom";
 
 const root = createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(
+  <HashRouter>
+    <App />
+  </HashRouter>
+);

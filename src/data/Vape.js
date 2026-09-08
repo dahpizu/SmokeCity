@@ -1,3 +1,4 @@
+const basepath = import.meta.env.BASE_URL;
 const vapeItems = [
   {
     id: "vape1",
@@ -9,12 +10,18 @@ const vapeItems = [
       {
         name: "Srawberry Banana",
         code: "#FC5A8D",
-        images: ["/images/Vape/032.jpeg", "/images/Vape/031.jpeg"],
+        images: [
+          `${basepath}images/Vape/032.jpeg`,
+          `${basepath}images/Vape/031.jpeg`,
+        ],
       },
       {
         name: "Mint Ice",
         code: "#AAF0D1",
-        images: ["/images/Vape/033.jpeg", "/images/Vape/030.jpeg"],
+        images: [
+          `${basepath}images/Vape/033.jpeg`,
+          `${basepath}images/Vape/030.jpeg`,
+        ],
       },
     ],
   },

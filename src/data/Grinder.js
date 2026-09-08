@@ -1,3 +1,4 @@
+const basepath = import.meta.env.BASE_URL;
 const grinderItems = [
   {
     id: "grinder1",
@@ -9,12 +10,18 @@ const grinderItems = [
       {
         name: "Black",
         code: "#000000",
-        images: ["/images/Grinder/002.jpeg", "/images/Grinder/004.jpeg"],
+        images: [
+          `${basepath}images/Grinder/002.jpeg`,
+          `${basepath}images/Grinder/004.jpeg`,
+        ],
       },
       {
         name: "Silver",
         code: "#C0C0C0",
-        images: ["/images/Grinder/001.jpeg", "/images/Grinder/003.jpeg"],
+        images: [
+          `${basepath}images/Grinder/001.jpeg`,
+          `${basepath}images/Grinder/003.jpeg`,
+        ],
       },
     ],
   },
@@ -27,12 +34,15 @@ const grinderItems = [
       {
         name: "Black",
         code: "#000000",
-        images: ["/images/Grinder/006.jpeg", "/images/Grinder/008.jpeg"],
+        images: [
+          `${basepath}images/Grinder/006.jpeg`,
+          `${basepath}images/Grinder/008.jpeg`,
+        ],
       },
       {
         name: "Cream",
         code: "#FFFDD0",
-        images: ["/images/Grinder/007.jpeg"],
+        images: [`${basepath}images/Grinder/007.jpeg`],
       },
     ],
   },
@@ -45,11 +55,11 @@ const grinderItems = [
     colors: [
       {
         images: [
-          "/images/Grinder/013.jpeg",
-          "/images/Grinder/009.jpeg",
-          "/images/Grinder/010.jpeg",
+          `${basepath}images/Grinder/013.jpeg`,
+          `${basepath}images/Grinder/009.jpeg`,
+          `${basepath}images/Grinder/010.jpeg`,
 
-          "/images/Grinder/012.jpeg",
+          `${basepath}images/Grinder/012.jpeg`,
         ],
       },
     ],
@@ -64,7 +74,10 @@ const grinderItems = [
       {
         name: "Black",
         code: "#000000",
-        images: ["/images/Grinder/016.jpeg", "/images/Grinder/015.jpeg"],
+        images: [
+          `${basepath}images/Grinder/016.jpeg`,
+          `${basepath}images/Grinder/015.jpeg`,
+        ],
       },
     ],
   },
@@ -78,11 +91,11 @@ const grinderItems = [
         name: "Black",
         code: "#000000",
         images: [
-          "/images/Grinder/018.jpeg",
-          "/images/Grinder/019.jpeg",
-          "/images/Grinder/020.jpeg",
-          "/images/Grinder/023.jpeg",
-          "/images/Grinder/024.jpeg",
+          `${basepath}images/Grinder/018.jpeg`,
+          `${basepath}images/Grinder/019.jpeg`,
+          `${basepath}images/Grinder/020.jpeg`,
+          `${basepath}images/Grinder/023.jpeg`,
+          `${basepath}images/Grinder/024.jpeg`,
         ],
       },
     ],
@@ -97,11 +110,11 @@ const grinderItems = [
         name: "Black",
         code: "#000000",
         images: [
-          "/images/Grinder/018.jpeg",
-          "/images/Grinder/019.jpeg",
-          "/images/Grinder/020.jpeg",
-          "/images/Grinder/023.jpeg",
-          "/images/Grinder/024.jpeg",
+          `${basepath}images/Grinder/018.jpeg`,
+          `${basepath}images/Grinder/019.jpeg`,
+          `${basepath}images/Grinder/020.jpeg`,
+          `${basepath}images/Grinder/023.jpeg`,
+          `${basepath}images/Grinder/024.jpeg`,
         ],
       },
     ],

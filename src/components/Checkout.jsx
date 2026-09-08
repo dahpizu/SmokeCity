@@ -1,10 +1,13 @@
 // src/components/Checkout.jsx
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // <-- Import useNavigate
 import { useCart } from "../data/CartContext";
 import "../css/Checkout.css";
 
 export default function Checkout() {
   const { cart, clearCart } = useCart();
+  const navigate = useNavigate(); // <-- Initialize navigate
+
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -80,14 +83,13 @@ export default function Checkout() {
     orders.push(newOrder);
     localStorage.setItem("orders", JSON.stringify(orders));
 
-    // Clear cart after order
     clearCart();
 
     setOrderPlaced(true);
     alert(`Order placed successfully!`);
 
-    // ✅ Redirect to My Orders page
-    window.location.href = "/my-orders";
+    // Redirect using navigate
+    navigate("/my-orders");
   };
 
   return (
