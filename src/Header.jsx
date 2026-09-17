@@ -7,7 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import ShoppingCart from "./components/ShoppingCart";
 import { useCart } from "./data/CartContext";
 
-import "./header.css";
+import "./Header.css";
 
 function Header() {
   const [cartOpen, setCartOpen] = useState(false);
